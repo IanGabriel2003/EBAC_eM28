@@ -25,9 +25,19 @@ body {
 p {
   text-align: center;
   border: 1px solid #ababab;
-  border-radius: 500px;
+  border-radius: 5px;
   background-color: #3B3B3B;
   color: #ababab;
+}
+
+.estatisticas {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+}
+
+input {
+  justify-content: space-between;
 }
 
 @media (prefers-color-scheme: light) {
